@@ -1,0 +1,375 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+#web{
+    width: 1440px;
+    height: 4038px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/*Menu Superior*/
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-left: 88px;
+    margin-right: 69px;
+}
+
+.logo{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.logo > img{
+    width: 26px;
+    height: 26px;
+}
+
+.logo > p{
+    width: 52px;
+    height: 24px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 21.33px;
+    line-height: 24px;
+    text-align:center;
+    color: #285E67;
+}
+
+.menu > nav > ul{
+    width: 347px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    margin-top: 32px;
+} 
+
+.menu > nav > ul > li{
+    list-style: none;
+}
+
+.menu > nav > ul > li > a{
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #2B2B2B;
+}
+
+#contenido{
+    width: 1300px;
+    height: 3524px;
+    margin: 0 auto;
+}
+
+#enunciado{
+    margin-top: 142px;
+}
+
+#enunciado > h1{
+    width: 1300px;
+    height: 82px;
+
+    font-family: "Poppins", serif;
+    
+    font-weight: 600;
+    font-size: 65.34px;
+    line-height: 82px;
+    text-align: center;
+}
+
+#enunciado > p{
+    width: 1300px;
+    height: 24px;
+
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+
+    
+#enunciado button{
+    width: 251px;
+    height: 56px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 67px;
+    background-color: #285E67;
+    color: #FFFFFF;
+
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 21.33px;
+    line-height: 24px;
+
+    margin-left: 601.5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#imagens_join{
+    width: 1300px;
+    height: 506px;
+    margin-top: 33px;
+
+    display: flex;
+    gap: 48px;
+}
+
+#imagens_join img{
+    width: 626px;
+    height: 391px;
+    border-radius: 16px;
+}
+
+
+#Mujer_yoga{
+    width: 1300px;
+    height: 446px;
+    background-color:#F4F4F4;
+    border-radius: 12px;
+
+    display: flex;
+    margin-top: 104px;
+}
+
+#texto_yoga{
+    width: 589px;
+    height:342.54px;
+    margin-top: 51.73px;
+    margin-left: 112px;
+}
+
+#texto_yoga > h1{
+    width: 589px;
+    height: 94px;
+
+    font-family: "Poppins", serif;
+    font-weight:600; 
+    font-size: 50.52px;
+    line-height: 62px;
+    color: #2B2B2B;
+}
+
+#contenido_yoga{
+    width: 589px;
+    height: 187.54px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#contenido_yoga > div > div{
+    width: 58px;
+    height: 57px;
+    border-radius: 9px;
+    background-color:#285E67 ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenido_yoga > div > div > img{
+    width: 26px;
+    height: 29px;
+}
+#contenido_yoga p{
+    width: 260px;
+    height: 110.54px;
+
+    margin-top: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size:16px ;
+    line-height: 24px;
+    color: #2B2B2B;
+}
+#img_mujer{
+    width: 651px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#img_mujer > img{
+    width: 291px;
+    height: 294px;
+}
+
+
+#seccion_planta{
+    width: 1300px;
+    height: 578px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 104px;
+}
+
+#img_planta_grande{
+    width: 623.5px;
+    height: 578px;
+    border-radius: 16px;
+}
+
+#contenido_planta_grande{
+    width: 623.5px;
+    height: 474px;
+    margin-top: 52px;
+    margin-left: 53px;
+}
+
+#titulo_planta_grande{
+    width: 623.5px;
+}
+
+#titulo_planta_grande h1{
+    width: 623.5px;
+
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 50.52px;
+    line-height: 62px;
+    color: #2B2B2B;
+}
+
+#titulo_planta_grande p{
+    width: 623.5px;
+
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2B2B2B;
+}
+
+.apartado_planta{
+    width: 623.5px;
+    height: 52px;
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.apartado_planta > div{
+    width: 52px;
+    height: 52px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #285E67;
+    border-radius: 100%;
+}
+
+.apartado_planta p{
+    width: 548.5px;
+    height: 52px;
+
+    font-family: "Poppins", serif;
+    font-weight:400 ;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2B2B2B;
+}
+
+#seccion_piña{
+    width: 1300px;
+    height: 541px;
+    background-color: #F4F4F4;
+    gap: 87px;
+    display: flex;
+    margin-top: 104px;
+}
+
+#img_piña{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 114px;
+}
+
+#img_piña img{
+    width: 350px;
+    height: 347.5px;
+}
+
+#contenido_piña{
+    width: 543px;
+    height: 362.54px;
+
+    margin-top: 56px;
+}
+
+#contenido_piña h1{
+    width: 543px;
+    height: 99px;
+
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 50.52px;
+    line-height: 30px;
+    color: #2B2B2B;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info_piña{
+    width: 543px;
+    height: 187.54px;
+
+    margin-top: 41px;
+
+    display: flex;
+    justify-content: space-between;
+}
+#info_piña > div > div{
+    width: 58px;
+    height: 57px;
+
+    background-color:#EBBFAE;
+    border-radius: 9px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#info_piña > div > div > img{
+    width: 26px;
+    height: 29px;
+}
+
+#info_piña > div > p{
+    width: 237px;
+    height: 110.54px;
+
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #2A2A2A;
+    margin-top: 20px;
+}
