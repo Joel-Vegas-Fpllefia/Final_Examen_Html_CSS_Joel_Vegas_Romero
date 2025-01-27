@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: #F4F4F4;
 }
 #web{
     width: 1440px;
@@ -103,7 +103,9 @@ header{
 
 
 
-    
+#enunciado > a{
+    text-decoration: none;
+}  
 #enunciado button{
     width: 251px;
     height: 56px;
@@ -123,7 +125,7 @@ header{
 
     margin-left: 601.5px;
     cursor: pointer;
-    text-decoration: none;
+    
 }
 
 #imagens_join{
@@ -528,5 +530,38 @@ header{
 }
 
 footer{
-    
+    margin-top: 118px;
+    width: 1441px;
+    height:245px ;
+    background-color: #285E67;
+}
+#logo_footer > p,#menu_footer > nav > ul > li > a{
+    color: #FFFFFF;
+}
+#logo_footer{
+    margin-top: 78px;
+}
+#menu_footer{
+    margin-top: 80px;
+}
+#parte_principal{
+    display: flex;
+    gap:729px;
+    align-items: center;
+    margin-left: 139px;
+}
+
+
+#redes{
+    width: 166px;
+    height: 27px;
+
+    margin-top: 36px;
+    margin-left: 139px;
+
+    display: flex;
+    gap: 24px;
+}
+#redes > div{
+    cursor: pointer;
 }
