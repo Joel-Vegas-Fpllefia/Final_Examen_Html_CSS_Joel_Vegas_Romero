@@ -105,6 +105,9 @@ header{
 
 #enunciado > a{
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }  
 #enunciado button{
     width: 251px;
@@ -122,16 +125,14 @@ header{
     font-weight: 600;
     font-size: 21.33px;
     line-height: 24px;
-
-    margin-left: 601.5px;
+    margin-top: 33px;
     cursor: pointer;
     
 }
 
 #imagens_join{
     width: 1300px;
-    height: 506px;
-    margin-top: 33px;
+    margin-top: 56px;
 
     display: flex;
     gap: 48px;
@@ -269,7 +270,7 @@ header{
 
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .apartado_planta > div{
     width: 52px;
@@ -292,6 +293,8 @@ header{
     font-size: 16px;
     line-height: 24px;
     color: #2B2B2B;
+
+    margin-top: 0;
 }
 
 #seccion_piña{
